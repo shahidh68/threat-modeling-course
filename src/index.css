@@ -1,0 +1,24 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+```
+
+---
+
+**Your final GitHub repo structure should look like this:**
+```
+threat-modeling-course/
+├── index.html
+├── package.json
+├── vite.config.js
+└── src/
+    ├── App.jsx        ← the course code
+    ├── main.jsx
+    └── index.css
